@@ -23,6 +23,7 @@ class ThreadsLayer : public BaseLayer {
   ~ThreadsLayer() = default;
   
   // Accessors
+  const size_t& getThreadSize() const { return thread_size_; }
   void setZoomScale(float scale) { zoom_scale_ = scale; }
   const float& getZoomScale() const { return zoom_scale_; }
   
