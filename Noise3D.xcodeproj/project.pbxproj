@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2373299B1D00920900A51B3F /* scene.cc in Sources */ = {isa = PBXBuildFile; fileRef = 237329991D00920900A51B3F /* scene.cc */; };
+		2373299E1D04267300A51B3F /* timer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 2373299C1D04267300A51B3F /* timer.cc */; };
+		237329A21D044B4000A51B3F /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 237329A01D044B4000A51B3F /* status.cc */; };
 		23D3B6FA1CFD80F500627855 /* anchor.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23D3B6F81CFD80F500627855 /* anchor.cc */; };
 		23D3B6FD1CFD970200627855 /* thread_data.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23D3B6FB1CFD970200627855 /* thread_data.cc */; };
 		23D3B7001D00876E00627855 /* gui_layer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23D3B6FE1D00876E00627855 /* gui_layer.cc */; };
 		23D3B7041D0087CD00627855 /* base_layer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23D3B7021D0087CD00627855 /* base_layer.cc */; };
+		23D3B7081D00892300627855 /* tween.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23D3B7061D00892300627855 /* tween.cc */; };
+		23D3B70B1D008E7000627855 /* threads_layer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 23D3B7091D008E7000627855 /* threads_layer.cc */; };
 		5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */; };
 		63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */; };
 		933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */; };
@@ -58,6 +63,12 @@
 		0A42C807BEF3A18E8E105A3B /* ofxDatGuiTimeGraph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxDatGuiTimeGraph.h; path = ../../../addons/ofxDatGui/src/components/ofxDatGuiTimeGraph.h; sourceTree = SOURCE_ROOT; };
 		1A3E3B8F332A1A3C7EDF4998 /* ofxDatGuiComponent.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxDatGuiComponent.cpp; path = ../../../addons/ofxDatGui/src/core/ofxDatGuiComponent.cpp; sourceTree = SOURCE_ROOT; };
 		21E1E3071CB7B11914428B62 /* ofxDatGuiThemes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxDatGuiThemes.h; path = ../../../addons/ofxDatGui/src/themes/ofxDatGuiThemes.h; sourceTree = SOURCE_ROOT; };
+		237329991D00920900A51B3F /* scene.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cc; sourceTree = "<group>"; };
+		2373299A1D00920900A51B3F /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		2373299C1D04267300A51B3F /* timer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timer.cc; sourceTree = "<group>"; };
+		2373299D1D04267300A51B3F /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		237329A01D044B4000A51B3F /* status.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = status.cc; sourceTree = "<group>"; };
+		237329A11D044B4000A51B3F /* status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = status.h; sourceTree = "<group>"; };
 		23D3B6F81CFD80F500627855 /* anchor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = anchor.cc; sourceTree = "<group>"; };
 		23D3B6F91CFD80F500627855 /* anchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anchor.h; sourceTree = "<group>"; };
 		23D3B6FB1CFD970200627855 /* thread_data.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread_data.cc; sourceTree = "<group>"; };
@@ -66,6 +77,10 @@
 		23D3B6FF1D00876E00627855 /* gui_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gui_layer.h; sourceTree = "<group>"; };
 		23D3B7021D0087CD00627855 /* base_layer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base_layer.cc; sourceTree = "<group>"; };
 		23D3B7031D0087CD00627855 /* base_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base_layer.h; sourceTree = "<group>"; };
+		23D3B7061D00892300627855 /* tween.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tween.cc; sourceTree = "<group>"; };
+		23D3B7071D00892300627855 /* tween.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tween.h; sourceTree = "<group>"; };
+		23D3B7091D008E7000627855 /* threads_layer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = threads_layer.cc; sourceTree = "<group>"; };
+		23D3B70A1D008E7000627855 /* threads_layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threads_layer.h; sourceTree = "<group>"; };
 		26490D7CC31EF7D6ED5F925A /* ofxDatGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxDatGui.cpp; path = ../../../addons/ofxDatGui/src/ofxDatGui.cpp; sourceTree = SOURCE_ROOT; };
 		2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
 		422C4E1AAC7EC4D30B17702D /* ofxDatGuiIntObject.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxDatGuiIntObject.h; path = ../../../addons/ofxDatGui/src/core/ofxDatGuiIntObject.h; sourceTree = SOURCE_ROOT; };
@@ -134,8 +149,8 @@
 		23D3B6EF1CFD7E1700627855 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				E4B69E1F0A3A1BDC003C02F2 /* application.h */,
-				E4B69E1E0A3A1BDC003C02F2 /* application.cc */,
+				2373299A1D00920900A51B3F /* scene.h */,
+				237329991D00920900A51B3F /* scene.cc */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -143,10 +158,10 @@
 		23D3B6F01CFD7E2F00627855 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				23D3B6FE1D00876E00627855 /* gui_layer.cc */,
 				23D3B6FF1D00876E00627855 /* gui_layer.h */,
-				23D3B7021D0087CD00627855 /* base_layer.cc */,
-				23D3B7031D0087CD00627855 /* base_layer.h */,
+				23D3B6FE1D00876E00627855 /* gui_layer.cc */,
+				23D3B70A1D008E7000627855 /* threads_layer.h */,
+				23D3B7091D008E7000627855 /* threads_layer.cc */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -158,8 +173,25 @@
 				23D3B6F81CFD80F500627855 /* anchor.cc */,
 				23D3B6FC1CFD970200627855 /* thread_data.h */,
 				23D3B6FB1CFD970200627855 /* thread_data.cc */,
+				237329A11D044B4000A51B3F /* status.h */,
+				237329A01D044B4000A51B3F /* status.cc */,
 			);
 			name = model;
+			sourceTree = "<group>";
+		};
+		23D3B7051D00890800627855 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1F0A3A1BDC003C02F2 /* application.h */,
+				E4B69E1E0A3A1BDC003C02F2 /* application.cc */,
+				23D3B7031D0087CD00627855 /* base_layer.h */,
+				23D3B7021D0087CD00627855 /* base_layer.cc */,
+				23D3B7071D00892300627855 /* tween.h */,
+				23D3B7061D00892300627855 /* tween.cc */,
+				2373299C1D04267300A51B3F /* timer.cc */,
+				2373299D1D04267300A51B3F /* timer.h */,
+			);
+			name = core;
 			sourceTree = "<group>";
 		};
 		69146F0BA46E48E576618E5E /* libs */ = {
@@ -280,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				E4B69E1D0A3A1BDC003C02F2 /* main.cc */,
+				23D3B7051D00890800627855 /* core */,
 				23D3B6F11CFD7E3900627855 /* model */,
 				23D3B6F01CFD7E2F00627855 /* view */,
 				23D3B6EF1CFD7E1700627855 /* controller */,
@@ -404,7 +437,12 @@
 				C9466C434D1CF8AB968D298D /* ofxDatGui.cpp in Sources */,
 				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
 				23D3B7001D00876E00627855 /* gui_layer.cc in Sources */,
+				237329A21D044B4000A51B3F /* status.cc in Sources */,
+				2373299B1D00920900A51B3F /* scene.cc in Sources */,
 				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
+				23D3B70B1D008E7000627855 /* threads_layer.cc in Sources */,
+				23D3B7081D00892300627855 /* tween.cc in Sources */,
+				2373299E1D04267300A51B3F /* timer.cc in Sources */,
 				23D3B7041D0087CD00627855 /* base_layer.cc in Sources */,
 				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
 				23D3B6FD1CFD970200627855 /* thread_data.cc in Sources */,

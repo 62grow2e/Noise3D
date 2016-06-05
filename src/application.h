@@ -3,8 +3,13 @@
 #include "ofMain.h"
 //#include "anchor.h"
 #include "thread_data.h"
+#include "base_layer.h"
+#include "gui_layer.h"
+#include "threads_layer.h"
 
-class Application : public ofBaseApp{
+#include "scene.h"
+
+class Application : public ofBaseApp {
 
  public:
   void setup();
@@ -17,6 +22,7 @@ class Application : public ofBaseApp{
   void mouseDragged(int x, int y, int button);
   void mousePressed(int x, int y, int button);
   void mouseReleased(int x, int y, int button);
+  void mouseScrolled(int x, int y, int scrollX, int scrollY);
   void mouseEntered(int x, int y);
   void mouseExited(int x, int y);
   void windowResized(int w, int h);
@@ -24,6 +30,7 @@ class Application : public ofBaseApp{
   void gotMessage(ofMessage msg);
  
  private:
-  ThreadData thread_;
+  unique_ptr<Scene> scene_;
+  
   
 };

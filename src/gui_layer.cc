@@ -7,3 +7,11 @@
 //
 
 #include "gui_layer.h"
+
+void GUILayer::update() {
+  
+}
+
+void GUILayer::draw() {
+  
+}

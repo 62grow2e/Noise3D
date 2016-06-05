@@ -7,4 +7,3 @@
 //
 
 #include "base_layer.h"
-

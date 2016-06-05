@@ -8,7 +8,19 @@
 
 #include "thread_data.h"
 
-ThreadData::ThreadData() {
-  Anchor start(*new ofPoint(10, 0, 0));
+ThreadData::ThreadData(const ofPoint& begin) : anchor_size_(200) {
+  Anchor start(*new ofPoint(begin.x, begin.y, begin.z));
   anchors_.emplace_back(start);
+  for (size_t i = 0; i < anchor_size_; i++) {
+    anchors_.emplace_back(anchors_.back().generateNext());
+  }
 }
+
+//
+//ThreadData::ThreadData(const ThreadData& other) {
+//  
+//}
+//
+//ThreadData& ThreadData::operator=(const ThreadData& other) {
+//  
+//}

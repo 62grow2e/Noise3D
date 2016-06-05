@@ -1,5 +1,4 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2DE9C8846D9375EAACFABA8963120E8E7719BAF5",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -9,12 +8,12 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B630F68F-8729-4C84-A8A7-7A5ED160CC45",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : "openFrameworks\/",
-    "9233F0F4A2BE011BD468E5177A5AD6623263B23D" : "openFrameworks\/addons\/ofxDatGui\/"
+    "2DE9C8846D9375EAACFABA8963120E8E7719BAF5" : "..\/..",
+    "9233F0F4A2BE011BD468E5177A5AD6623263B23D" : "..\/..\/addons\/ofxDatGui"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Noise3D",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "apps\/myApps\/Noise3D\/Noise3D.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Noise3D.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/openframeworks\/openFrameworks.git",

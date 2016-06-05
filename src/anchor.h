@@ -35,7 +35,7 @@ class Anchor {
   ofPoint pos_;
   ofColor color_;
   float radius_;
-  float theta_, phi_;
+//  float theta_, phi_;
 };
 
 inline Anchor Anchor::generateNext() {

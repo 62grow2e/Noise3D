@@ -9,8 +9,18 @@
 #pragma once
 
 #include "ofMain.h"
+#include "base_layer.h"
 
-class GUILayer {
+class GUILayer : public BaseLayer {
  public:
+  // Destructor
+  ~GUILayer() = default;
+  
+  // Accessors
+  
+  // Framework methods
+  void update() override;
+  void draw() override;
+  
  private:
 };
